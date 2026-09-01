@@ -21,9 +21,9 @@
 # publishes specific combos, so Renovate tracks each against the real hexpm/elixir
 # tag list (customManagers in renovate.json) and groups the bumps into one PR — it
 # never proposes a value from a combo that isn't published. Debian stays on trixie-slim.
-ARG ELIXIR_VERSION=1.20.2
-ARG OTP_VERSION=28.5.0.4
-ARG DEBIAN_VERSION=trixie-20260713-slim
+ARG ELIXIR_VERSION=1.20.4
+ARG OTP_VERSION=28.5.0.6
+ARG DEBIAN_VERSION=trixie-20260824-slim
 # renovate: datasource=github-releases depName=denoland/deno
 ARG DENO_VERSION=v2.9.0
 # renovate: datasource=node-version depName=node
